@@ -104,7 +104,7 @@ export class PagedContacts {
    * @param {String[]} keysToFetch The keys to fetch
    * @returns {Object[]} The fetched contacts
    * 
-   * @memberOf PagedContacts
+   * @memberOf PagedContact
    */
   async getContactsWithIdentifiers(identifiers, keysToFetch) {
     return PagedContactsModule.getContactsWithIdentifiers(this._uuid, identifiers, keysToFetch);
